@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+h1 {
+    font-size: 64px;
+    color: #1F3F68;
+    /*font-family: Roboto;*/
+    font-style: normal;    
+
+    width: 510px;
+    height: 148px;
+    left: 113px;
+    top: 189px;
+    
+    font-weight: 300;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+}
+
+h1 ~ p {
+    width: 425px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 36px;
+    text-align: center; 
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+    /*width: 359px;*/
+}
+
+hr {
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+}
+
+button {
+    height: 56px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 0px 50px 0px 50px;
+}
+
+.input-text {
+    /*border: 1px solid #356EAD;*/
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.main_top {
+    /*border: 4px solid green;*/
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.menu {
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+    margin-bottom: 15px;
+}
+
+.main_top_content {
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.content {
+    margin: auto;
+}
+
+.what-we-do {
+    /*border: 1px solid black;*/
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.card_title {
+    font-size: 36px;
+    text-align: center; 
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.card-conteiner {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 54px;
+}
+
+.card {
+    margin: 10px;
+    width: 359px;
+    height: 480px;
+    /*width: 300px;
+    height: 420px;*/
+    
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+
+.card > div > img {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 14px;
+    margin-bottom: 50px;
+}
+
+.card > div > h4 {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    margin-bottom: 14px;
+}
+
+.card > div > p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+    height: 130px;
+}
+
+.card :link,:visited {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
+    margin-left: 30px;
+
+    vertical-align: text-bottom;
+}
+
+.card_img_conteiner
+{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 14px;
+    margin-bottom: 50px;
+    height: 156px;
+}
+
+.card_img_conteiner > img {
+    /*border: 1px solid green;*/
+    position: relative;
+    margin: 0 auto;
+}
+
+.project {
+    margin: 10px;
+}
+
+.project_title {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.project_description {
+    width: 750px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.app {
+    margin: 0 auto;
+}
+
+.app_group {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+}
+
+.app_img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contacts-header {
+    text-align: center;
+    background-color: #5A98D0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+}
+
+.contacts-content {
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+
+.contacts-block {
+    /*border: 1px solid cadetblue;*/
+    width: 45%;
+}
+
+.footer {
+    margin-top: 112px;
+    background-color: #316099;
+}
+
+.footer-top {
+    margin-left: 113px;
+    margin-right: 115px;
+    margin-bottom: 96px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    margin-top: 91px;
+    margin-bottom: 32px;
+    font-size: 36px;
+    text-align: left;
+    width: 340px;
+
+    font-style: normal;
+    font-weight: normal;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footer-description {
+    width: 495px;
+    height: 80px;
+    
+    font-size: 16px;
+    line-height: 26px;
+
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.button-lets-talk {
+    margin-top: 165px;
+    width: 237px;
+    width: 236.63px;
+    height: 56px;
+    
+    border-radius: 0px;
+    background: #5A98D0;    
+}
+
+.footer-contacts {
+    border: 2px solid #316099;
+    margin-top: 64px;
+    margin-left: 113px;
+    margin-right: 113px;
+}
+
+.footer-ul_contacts {
+    display: flex;
+    justify-content: space-between;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+}
+
+.footer-ul_contacts > li {
+    width: 316px;
+    margin-left: 50px;
+    list-style-type: symbols("A. " "T. " "E. ");
+}
+
+.footer-ul_contacts > li > a {
+    direction: unset;
+}
+
+.footer-ul_contacts :link,:visited {
+    color: #FFFFFF;
+    /*text-decoration: none;*/
+}
+
+.copy-right {
+    margin-top: 64px;
+    margin-bottom: 64px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
