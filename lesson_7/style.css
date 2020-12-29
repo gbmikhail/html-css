@@ -609,6 +609,26 @@ hr {
         align-self: center;
         margin-right: 114px;
     }
+
+    .heading-contact-text {
+        width: 100%;
+    }
+
+    .main {
+        display: block;
+        justify-content: space-around;
+        margin: auto 0;
+    }
+   
+    .contacts-info {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .div-message {
+        margin: 0 auto;
+        margin-top: 64px;
+    }
 }
 
 @media (max-width: 667px) {
@@ -732,4 +752,9 @@ hr {
         margin-left: 0px;
         margin-right: 0px;
     }
+
+    .div-message {
+        width: 100%;
+    }
+
 }
