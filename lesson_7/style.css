@@ -93,6 +93,12 @@ body {
     flex-direction: column;
 }
 
+.footer__bottom
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .footer__button {
     font-size: 16px;
     line-height: 26px;
@@ -249,9 +255,21 @@ body {
     width: 300px;
 }
 
+.logo {
+    margin: 0px;
+}
+
 .address {
     margin-top: 56px;
     margin-bottom: 56px;
+}
+
+.phone {
+    margin: 0px;
+}
+
+.online_servise {
+    margin: 0px;
 }
 
 .ul-phone {
@@ -309,6 +327,7 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
+    text-align: left;
     
     /* identical to box height, or 187% */
     letter-spacing: 0.04em;
@@ -585,7 +604,7 @@ hr {
         flex-direction: column;
         padding-left: 90px;
     }
-    
+
     .footer__info {
         display: block;
         padding-top: 64px;
